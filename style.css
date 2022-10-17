@@ -1,11 +1,18 @@
 .rouge {
 	color: red;
+	margin: 30px;
 }
 
 .bleu {
 	color: blue;
+	font-family: Helvetica;
+
 }
 
 .violet {
 	color: purple;
+}
+
+body {
+	background-image: url("chaton.jpg");
 }
