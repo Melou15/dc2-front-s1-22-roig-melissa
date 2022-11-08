@@ -35,7 +35,7 @@ body
 
 #bloc_page
 {
-    width: 900px;
+    width: 390px;
     margin: auto;
 }
 
@@ -199,6 +199,7 @@ article p
 
 aside
 {
+    max-width: 390px;
     flex: 1.2;
     position: relative;
     background-color: #706b64;
@@ -291,4 +292,59 @@ footer h1
     color: #760001;
 }
 
-@media screen and (max-width: 1280px)
+@media all and (max-width: 900px)
+
+{
+
+    nav ul
+    {
+        flex-direction: column;
+        text-align: left;
+        justify-content: flex-start;
+    }
+    nav a
+    {
+        font-size: 12px;
+    }
+
+    #banniere_image
+    {
+        display: none;
+    }
+
+    section
+    {
+        flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+        font-size: 20px;
+
+    }
+
+    aside 
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #photo_zozor
+    {
+        width: 110px;
+        flex-direction: end;
+        
+    }
+
+    footer
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+
